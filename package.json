@@ -1,0 +1,34 @@
+{
+  "name": "@mikkmartin/ml-cards",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "repository": {
+    "url": "git://github.com/mikkmartin/ml-cards.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "module": "src/App.tsx",
+  "main": "src/index.js",
+  "dependencies": {
+    "d3": "5.15.0",
+    "framer-motion": "1.8.0",
+    "lodash": "4.17.15",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.0.1",
+    "simplex-noise": "2.4.0",
+    "styled-components": "4.4.1"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [">0.2%", "not dead", "not ie <= 11", "not op_mini all"]
+}
