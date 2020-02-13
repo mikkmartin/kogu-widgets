@@ -12,7 +12,7 @@ import AddCard from './AddCard'
 const attrs = {
   noiseStrength: 0.95,
   growthSpeed: 3,
-  maxSize: 901,
+  maxSize: 900,
   rmsprop: true
 }
 
